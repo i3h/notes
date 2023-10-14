@@ -1,2 +1,3 @@
 #theme = 'ananke'
-theme = 'elephants'
+#theme = 'elephants'
+theme = 'plain'
