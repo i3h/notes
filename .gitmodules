@@ -4,7 +4,3 @@
 [submodule "themes/elephants"]
 	path = themes/elephants
 	url = https://github.com/meibenny/elephants.git
-[submodule "themes/plain"]
-	path = themes/plain
-	url = ../plain/
-	branch = dev
