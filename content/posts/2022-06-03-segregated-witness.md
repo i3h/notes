@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Segregated Witness"
-date: 2022-06-03 22:42
+date: 2022-06-03
 ---
 
 #### **基本概念**

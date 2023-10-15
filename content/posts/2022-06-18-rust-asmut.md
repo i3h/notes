@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rust AsMut"
-date: 2022-06-18 17:30
+date: 2022-06-18
 ---
 
 #### 定义
