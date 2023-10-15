@@ -12,7 +12,7 @@ $$
 
 #### **证明过程**
 
-![BernoullisLawDerivationDiagram.svg](/assets/BernoullisLawDerivationDiagram.svg)
+![BernoullisLawDerivationDiagram.svg](/images/BernoullisLawDerivationDiagram.svg)
 
 做功能量、动能变化、势能变化分别为：
 

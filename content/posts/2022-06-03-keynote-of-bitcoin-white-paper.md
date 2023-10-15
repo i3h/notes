@@ -6,7 +6,7 @@ date: 2022-06-03
 
 #### **Transactions**
 
-![bitcoin-transaction.png](/assets/bitcoin-transaction.png)
+![bitcoin-transaction.png](/images/bitcoin-transaction.png)
 
 比特币的交易过程：
 
@@ -20,7 +20,7 @@ date: 2022-06-03
 
 #### **Proof-of-Work**
 
-![proof-of-work](/assets/proof-of-work.png)
+![proof-of-work](/images/proof-of-work.png)
 
 每个 Block 包含：
 
@@ -54,9 +54,9 @@ Proof-of-Work 机制要求 Block Hash 开头的数个 bit 为零。
 
 #### **Merkle Tree & SPV**
 
-![bitcoin-merkle-tree](/assets/bitcoin-merkle-tree.png)
+![bitcoin-merkle-tree](/images/bitcoin-merkle-tree.png)
 
-![bitcoin-merkle-tree](/assets/bitcoin-spv.png)
+![bitcoin-merkle-tree](/images/bitcoin-spv.png)
 
 比特币网络节点可以利用 Merkle Tree 减少存储空间并对 Tx 进行验证
 
@@ -64,7 +64,7 @@ Thin Client 只需保存 Block Header，验证 Tx 时获取所需的 Sibling Nod
 
 #### **Combining & Splitting**
 
-![bitcoin-combining-splitting](/assets/bitcoin-combining-splitting.png)
+![bitcoin-combining-splitting](/images/bitcoin-combining-splitting.png)
 
 Transaction 中可以包含多个 Inputs 和 至多 两个 Outputs
 
