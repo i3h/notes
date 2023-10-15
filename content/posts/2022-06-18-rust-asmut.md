@@ -8,7 +8,7 @@ date: 2022-06-18
 
 `AsMut` 是一个 mut-to-mut ref trait，它可以帮助获取 struct inner type 的 ref。
 
-```
+```rust
 pub trait AsMut<T> 
 where
     T: ?Sized, 
@@ -19,7 +19,7 @@ where
 
 #### 例子
 
-```
+```rust
 fn add_one<T: AsMut<u64>>(num: &mut T) {
     *num.as_mut() += 1;
 }
@@ -38,7 +38,7 @@ assert_eq!(*boxed_num, 1);
 
 #### AsMut 的实现
 
-```
+```rust
 #[stable(since = "1.5.0", feature = "smart_ptr_as_ref")]
 impl<T: ?Sized, A: Allocator> AsMut<T> for Box<T, A> {
     fn as_mut(&mut self) -> &mut T {

@@ -8,9 +8,7 @@ date: 2021-09-29
 
 kubelet 日志错误信息：
 
-```
-misconfiguration: kubelet cgroup driver: \"systemd\" is different from docker cgroup driver: \"cgroupfs\"
-```
+`misconfiguration: kubelet cgroup driver: \"systemd\" is different from docker cgroup driver: \"cgroupfs\"`
 
 container runtime 和 kubelet 的 `cgroup driver` 必须保持一致。
 
