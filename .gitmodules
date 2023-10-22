@@ -6,4 +6,4 @@
 	url = https://github.com/meibenny/elephants.git
 [submodule "themes/plain"]
 	path = themes/plain
-	url = git@github.com:i3h/plain.git
+	url = https://github.com/i3h/plain.git
